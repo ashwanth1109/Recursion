@@ -9,11 +9,11 @@ factorialExpanded = n => {
         return n * factorial(n - 1); // recursive case
     }
 };
+// console.log(factorialExpanded(10)); // O/P => 3628800
 
 //===========================================
 // SOLVING FACTORIALS USING RECURSION - Minified
 //===========================================
 factorial = n => n * (n === 2 ? n - 1 : factorial(n - 1));
 
-console.log(factorialExpanded(10)); // O/P => 3628800
-console.log(factorial(10)); // O/P => 3628800
+console.log(factorial(1000)); // O/P => 3628800
