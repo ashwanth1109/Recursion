@@ -7,4 +7,4 @@ spreadArray = arr =>
         );
     }, []);
 
-console.log(spreadArray(recursiveArray));
+console.log(spreadArray(recursiveArray)); // O/P => [1, 2, 3, 4, 5, 6, 7]
